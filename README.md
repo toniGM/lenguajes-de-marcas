@@ -42,6 +42,7 @@ La formatación de este archivo en formato **Markdown** es el segundo ejercicio.
 * Imágenes
 * Listas
 
+
 ##¿Qué más?
 En un futuro próximo, este repositorio, además de ejercicios relativos a los aspectos ya tratados (HTML5, CSS3, Markdown...), va a contener ejercicios relativos a las siguientes tecnologías:
 
