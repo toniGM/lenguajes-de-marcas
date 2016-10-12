@@ -3,7 +3,8 @@
 ##Sobre este repositorio
 Este repositorio contiene los ejercicios del módulo de *Lenguaje de Marcas* del curso de DAW (Diseño de Aplicaciones Web) realizados por Marc Hernández Cabot.
 
-El contenido del mismo no es una muestra de los mejores proyectos sino de todos los ejercicios realizados. Para mejores referencias se recomienda.
+El contenido del mismo no es una muestra de los mejores proyectos sino de todos los ejercicios realizados.
+
 
 ##Contenido
 
@@ -26,7 +27,7 @@ Para hacer este ejercicio más completo, las imágenes (en formato png) han sido
 	
 ####Captura de pantalla de la página web:
 
-![Primer ejercicio.](http://es.tinypic.com/r/2hqco5z/9)
+![Primer ejercicio.](https://cloud.githubusercontent.com/assets/22377678/19323303/a5f71da6-90bc-11e6-9213-abff3b296388.png)
 
 
 
