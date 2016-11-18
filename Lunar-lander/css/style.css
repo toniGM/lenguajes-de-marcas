@@ -4,7 +4,8 @@ body {
     background-repeat: repeat;
     margin:0px;
     padding: 0px;
-}
+    height: 100%;
+    }
 
 #sol {
     position: absolute;
@@ -153,18 +154,74 @@ height: 10%;
 
 #contenedor-pause {
     border-radius: 20px;
-    height: 60%; padding: 20px;
+    height: 60%; 
+    padding: 20px;
     background: rgba(50,50,50,0.8);
     width: 60%;
     left: 15%;
     top: 15%;
     position: absolute;
     z-index:5;
+    display:none;
+}
+
+#boton-play {
+    position:absolute;
+    top:5%;
+    height: 80%;
+    width: 80%;
+    max-width: 40vw;
+    max-height: 40vh;
+    background-image: url('../img/play.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    left:20%;
+    background-position: center;
+
 }
 
 #boton-reinicio {
     position:absolute;
-    height: 2%;
-    width: 2%;
+    height: 30%;
+    width: 28%;
+    max-width: 20vw;
+    max-height: 20vh;
+    background-image: url('../img/reiniciar.png');
+    background-repeat: no-repeat;
+    background-size: contain;   
+    top:70%;
+    left:20%;
+        background-position: center;
+}
 
+#boton-inst {
+    position:absolute;
+    height: 30%;
+    width: 28%;
+    max-width: 20vw;
+    max-height: 20vh;
+    background-image: url('../img/inst.png');
+    background-repeat: no-repeat;
+    background-size: contain;   
+    top:70%;
+    right: 20%; 
+        background-position: center;
+}
+
+#contenedor-inst {
+    position:absolute;
+    border-radius: 20px;
+    height: 60%;
+    padding: 20px;
+    background: rgba(50,50,50,0.8);
+    width: 60%;
+    left: 15%;
+    top: 15%;
+    position: absolute;
+    z-index:5;
+    color:white;
+}
+
+.instruccion img {
+    height: 10%;
 }
