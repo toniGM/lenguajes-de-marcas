@@ -1,6 +1,8 @@
 #Lunar lander
 Proyecto de juego en HTML5+CSS3+JavaScript. Actualmente solo está diseñado el esquema de un juego en HTML+CSS. Próximamente se añadirá el motor del juego en JavaScript.
 
+Nota: existe una rama con la versión minificada: https://github.com/noviluni/lenguajes-de-marcas/tree/Luna-lander-minify/Lunar-lander
+
 #### Autor: _Marc Hernández Cabot_
 
 #### Diseño original:
