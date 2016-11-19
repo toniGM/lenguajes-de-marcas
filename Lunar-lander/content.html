@@ -1,18 +1,40 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="UTF-8">
-    <meta name="description" content="Instrucciones y créditos del juego Lunar Lander.>
-    <meta name="author" content="Marc Hernández Cabot">
-	<title>Instrucciones y créditos</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-            <div id="contenedor-inst">
-            Cómo jugar a <b>Lunar Lander</b>
-             <div class=instruccion><img src="img/propulsor.png" /> Sirve para propulsar el cohete </div>
-            <div class=instruccion> <img src="img/pause.png" />Sirve para pausar el juego. </div>
-            <a href="#" onclick="history.back(-1);" id="atras"></a>
-
-</body>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="Instrucciones y créditos del juego Lunar Lander.>
+		<meta name="author" content="Marc Hernández Cabot">
+		<title>Instrucciones y créditos</title>
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<div id="contenedor-inst">
+			<u><b>Cómo jugar a Lunar Lander</b></u>
+			<div class=instruccion><img src="img/propulsor.png" /> Propulsar el cohete </div>
+			<div class=instruccion> <img src="img/pause.png" />Pausar el juego. </div>
+			<div class=instruccion> <img src="img/play.png" />Continuar con el juego. </div>
+			<div class=instruccion> <img src="img/reiniciar.png" />Reiniciar el juego. </div>
+			<div class=instruccion> <img src="img/inst.png" />Ver las instrucciones y los créditos </div>
+			<div class="der"> <a href="#" onclick="ocultarDiv('contenedor-inst');mostrarDiv('contenedor-cred');">Créditos</a></div>
+		</div>
+		<div id="contenedor-cred">
+			<u><b>Personas involucradas en la creación de este juego:</b></u>
+			<ul>
+				<li><b>Diseño HTML+CSS:</b> Marc Hernández Cabot</li>
+				<li><b>Diseño del aspecto</b>
+					<ul>
+						<li>Óscar Domínguez</li>
+						<li>Isabel Martínez</li>
+						<li>Jamal El Boutaibi</li>
+						<li>Lamiae El Wahabi</li>
+					</ul>
+				</li>
+			</ul>
+			
+			<div class="der"><a href="#" onclick="ocultarDiv('contenedor-cred');mostrarDiv('contenedor-inst');">Instrucciones</a></div></div>
+		</div>
+		<a href="index.html" id="atras"></a>
+		<script> function mostrarDiv(elemento) {document.getElementById(elemento).style.display="block";}</script>
+		<script> function ocultarDiv(elemento) {document.getElementById(elemento).style.display="none";}</script>
+	</body>
 </html>
