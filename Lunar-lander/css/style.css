@@ -218,7 +218,6 @@ body {
     width: 70%;
     left: 10%;
     top: 15%;
-    position: absolute;
     z-index:5;
     color:white;
     overflow: hidden;
@@ -255,7 +254,6 @@ body {
     width: 70%;
     left: 10%;
     top: 15%;
-    position: absolute;
     z-index:5;
     color:white;
     overflow: hidden;
