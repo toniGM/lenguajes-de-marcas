@@ -260,6 +260,10 @@ body {
     line-height: 200%;
 }
 
+#vontenedor-cred li {
+    font-size:3.5vmin;
+}
+
 a {
     font-size: 3vw;
     text-decoration: none;
